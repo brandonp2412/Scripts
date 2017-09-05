@@ -1,3 +1,13 @@
+"""Renaming Multiple File Extensions
+
+Description: Finds files with names containing argv[1] and replaces their
+file extension with argv[2]
+
+Author: Brandon Presley
+GitHub: https://github.com/brandonp2412
+Date: 6/9/2017
+"""
+
 import os
 import sys
 
