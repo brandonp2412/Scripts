@@ -1,11 +1,11 @@
-"""
+""" Randomly Generating and Storing Passwords
+Description: Randomly generates passwords using inbuilt random module. Documents generated passwords using pymongo.
+
 Author: Brandon Presley
 GitHub: https://github.com/brandonp2412
 Date: 5/9/2017
-
-Description: Modules for the purpose of generating and storing randomly
-generated passwords.
 """
+
 import string, random, pyperclip
 from pymongo import MongoClient
 

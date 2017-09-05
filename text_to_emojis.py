@@ -1,16 +1,13 @@
-'''Text to Discord Emojis
+"""Text to Discord Emojis
 
 Description:
     This module serves the sole purpose of turning normal text into
     a set of the regional indicator discord emojis.
 
-Author:
-    Brandon Presley
-GitHub:
-    https://github.com/brandonp2412
-Date:
-    3/9/2017
-'''
+Author: Brandon Presley
+GitHub: https://github.com/brandonp2412
+Date: 5/9/2017
+"""
 
 import string
 import pyperclip
