@@ -1,3 +1,2 @@
-.vscode
-AlwaysOnTop.ahk
-.idea
+*.vscode
+*.idea
