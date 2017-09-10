@@ -1,8 +1,14 @@
-// Compares json objects of the following format:
-//      {
-//          attr1: strval1, attr2: strval2 ..., 
-//          value: [{attr1: strval1, ...}, ...]
-//      }
+/* Author: Brandon Presley 
+ * GitHub: https://github.com/brandonp2412
+ * Date: 10/9/2017
+ *
+ * Description:
+ *    Compares json objects of the following format:
+ *       {
+ *          key1: strval1, key2: strval2 ..., 
+ *          value: [{key1: strval1, ...}, {key2: strval2, ...}, ...]
+ *       }
+ */      
 function compare(a, b) {
     a = JSON.parse(a);
     b = JSON.parse(b);
@@ -19,7 +25,6 @@ function compare(a, b) {
         for (let j = 0; j < valueNames.length; j++) {
             if (a.value[i][valueNames[j]] !== b.value[i][valueNames[j]]) {
                 console.log("Property: " + valueNames[j] + " value mismatch");
-                console.log("On: ");
                 console.log(a.value[i]);
                 console.log(b.value[i]);
                 return false;
