@@ -5,5 +5,7 @@
  *	Description: Deletes the right hand sidebar of Reddit.
  */
 
-let sidebar = document.getElementsByClassName('side')[0];
-sidebar.parentNode.removeChild(sidebar);
+(function redditHideSidebar() {
+	let sidebar = document.getElementsByClassName('side')[0];
+	sidebar.parentNode.removeChild(sidebar);
+})();
